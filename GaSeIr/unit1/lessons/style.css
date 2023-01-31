@@ -1,0 +1,46 @@
+body{
+  background-color: gray;
+  margin:0;
+  height:100vh;
+  
+  display:grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 50px 1fr 30px; 
+  grid-gap: 5px
+}
+nav{
+  display:flex;
+  height:50px;
+  background-color: #f03F3C;
+  flex-direction: row;
+  justify-content: space-around;
+}
+div{
+  font-size:20px;
+  margin:10px;
+  color:#FFFFFF
+}
+section{
+  display: flex;
+}
+aside {
+  background-color: #FAE00C;
+}
+
+main {
+  background-color: #226AFA;
+}
+
+footer {
+  background-color: #63D629;
+}
+
+.flex-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav, footer {
+  grid-column; 1 / 3;
+}

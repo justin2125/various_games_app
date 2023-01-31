@@ -1,8 +1,8 @@
-# Project Title
+# The World Of Pairs
 
-## Date: 1/26/2021
+## Date: 10/2/2022
 
-### By:Michael Lackey
+### By: Justin lall
 
 #### [CodePen] (https://codepen.io/justin66)
 
@@ -10,7 +10,7 @@
 
 #### [Linkedin] (https://www.linkedin.com/in/justin-lall-2545b2250/)
 
-## **_description_**
+## What is "The World Of Pairs" you may ask ? it is an amazing comprehensive 2 dimensional game where you have a set of cards, but the objective is to find pairs of cards . Might sound a bit too simple but theres a fine catch that may challenge your cognitive functions quite a bit.
 
 #### These three links gives a description/display of who and what i will become in the future, most importantly the links i have provided are the key steps for my crucial journey to become a **web developer**.
 
@@ -25,7 +25,7 @@
 
 - Sub-item
 
-## **_Getting Started_**
+## How to get started [https://trello.com/b/WB0XiZnj/the-world-of-pairs]
 
 ### **_Screenshots_**
 
@@ -57,3 +57,5 @@
 ### Markdown Guide: [ia.net] (https://github.com/SEI-R-9-19/u1_hw_markdown)
 
 ### Markdown Cheatsheet: [GitHub] (https://www.markdownguide.org/cheat-sheet/)
+
+git

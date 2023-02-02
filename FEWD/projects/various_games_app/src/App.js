@@ -16,6 +16,7 @@ const App = (props) => {
             genre={game.genre}
             creator={game.creator}
             age={game.age}
+            image={game.img}
           />
         </div>
       ))}

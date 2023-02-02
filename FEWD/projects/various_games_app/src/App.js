@@ -13,12 +13,16 @@ const App = (props) => {
             title={game.title}
             year={game.year}
             genre={game.genre}
-            creator={game.creater.gender}
+            gender={game.creater.gender}
+            firstname={game.creater.firstname}
+            lastname={game.creater.lastname}
             age={game.age}
             homenumber={game.phone.home}
             personalnumber={game.phone.personal}
             image={game.img}
           />
+
+          <Genre genre={game.genre} />
         </div>
       ))}
     </div>

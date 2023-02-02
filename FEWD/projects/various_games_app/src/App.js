@@ -2,12 +2,15 @@ import './App.css'
 import Games from './components/Games'
 import Genre from './components/Genre'
 import games from './games.json'
+import Navbar from './components/Nav'
 
 const App = (props) => {
   return (
-    <div>
+    <div className="App">
+      <Navbar />
       {games.map((game, index) => (
         <div>
+          <Genre genre={game.genre} title={game.title} />
           <Games
             key={game.phone.personal}
             title={game.title}
@@ -21,12 +24,11 @@ const App = (props) => {
             personalnumber={game.phone.personal}
             image={game.img}
           />
-
-          <Genre genre={game.genre} title={game.title} />
         </div>
       ))}
     </div>
   )
 }
+// nav bar can be a component
 
 export default App

@@ -1,4 +1,4 @@
-import '../App'
+import './Nav.css'
 // import { Component } from 'react'
 
 // class Navbar extends component {
@@ -7,7 +7,7 @@ import '../App'
 function Nav() {
   return (
     <nav className="NavbarItems">
-      <a>
+      <a href="index.html">
         <svg
           id="logo-35"
           width="50"
@@ -29,9 +29,23 @@ function Nav() {
           ></path>{' '}
         </svg>
       </a>
-      <h1>
-        Games <i className="duh du-react"></i>
-      </h1>
+
+      <div>
+        <ul id="navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html">Blog</a>
+          </li>
+          <li>
+            <a href="index.html">About</a>
+          </li>
+          <li>
+            <a href="index.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }

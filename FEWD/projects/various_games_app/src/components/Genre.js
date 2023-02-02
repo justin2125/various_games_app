@@ -11,7 +11,7 @@ const Genre = (props) => {
 
   return (
     <div>
-      <p style={{ backgroundColor: 'pink', color: '223AE9' }}>{props.genre}</p>
+      <p style={{ backgroundColor: 'pink' }}>{props.genre}</p>
       <p style={{ backgroundColor: colorVariable, color: '52E922' }}>
         {props.title}
       </p>

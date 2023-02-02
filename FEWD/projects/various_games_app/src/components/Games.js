@@ -1,6 +1,6 @@
 const Games = (props) => {
   return (
-    <div>
+    <div class="whole">
       <img src={props.image} alt="game pics"></img>
       <div class="card">
         <h3>Title: {props.title}</h3>

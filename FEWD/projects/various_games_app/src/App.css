@@ -7,18 +7,19 @@ body {
   text-align: center;
   justify-content: space-between;
   font-size: small;
-
+  height:1000px
 }
 img {
-  width:25%;
-  height:25%;
+  width:70%;
+  height:50%;
   border: solid black 2px ;
 }
-.card {
+.whole {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
-
 }
-  
+  .card {
+    font-size: small;
+  }

@@ -22,7 +22,7 @@ const App = (props) => {
             image={game.img}
           />
 
-          <Genre genre={game.genre} />
+          <Genre genre={game.genre} title={game.title} />
         </div>
       ))}
     </div>

@@ -1,13 +1,13 @@
 import './App.css'
 import Games from './components/Games'
 import Genre from './components/Genre'
-import gameArray from './games.json'
+import games from './games.json'
 
 const App = (props) => {
-  console.log(gameArray.title)
+  console.log(games.title)
   return (
     <div>
-      {gameArray.map((game) => (
+      {games.map((game, index) => (
         <div>
           <Games
             key={game.phone.personal}

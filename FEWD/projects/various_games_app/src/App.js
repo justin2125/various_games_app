@@ -4,7 +4,6 @@ import Genre from './components/Genre'
 import games from './games.json'
 
 const App = (props) => {
-  console.log(games.title)
   return (
     <div>
       {games.map((game, index) => (
@@ -14,8 +13,10 @@ const App = (props) => {
             title={game.title}
             year={game.year}
             genre={game.genre}
-            creator={game.creator}
+            creator={game.creater.gender}
             age={game.age}
+            homenumber={game.phone.home}
+            personalnumber={game.phone.personal}
             image={game.img}
           />
         </div>

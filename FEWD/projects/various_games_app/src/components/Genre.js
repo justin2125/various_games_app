@@ -1,5 +1,5 @@
-// const Games = (props) => {
-//   return <div></div>
-// }
+const Games = (props) => {
+  return <div></div>
+}
 
-// export default Games
+export default Games

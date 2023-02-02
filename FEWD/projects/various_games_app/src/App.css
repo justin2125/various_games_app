@@ -5,6 +5,8 @@ body {
   background-color: antiquewhite;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  justify-content: space-between;
+  font-size: small;
 
 }
 img {
@@ -12,7 +14,11 @@ img {
   height:25%;
   border: solid black 2px ;
 }
-.game {
-  border:solid black 2px;
-  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+
 }
+  

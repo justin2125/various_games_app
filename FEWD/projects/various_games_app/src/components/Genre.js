@@ -1,3 +1,4 @@
+import './Genre.css'
 const Genre = (props) => {
   // let colorVariable
   // // console.log(props.genre)
@@ -11,7 +12,7 @@ const Genre = (props) => {
 
   return (
     <div>
-      <p className="genre" style={{ backgroundColor: 'brown', color: 'white' }}>
+      <p className="genre" style={{ color: 'white' }}>
         {props.title}
       </p>
     </div>

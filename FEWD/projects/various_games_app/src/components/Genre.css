@@ -1,0 +1,17 @@
+div {
+  margin:0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.genre{
+  font-family:'Balsamiq Sans', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 0 4px 18px rgba(33, 30, 30, 0.86);
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-color:brown ;
+  -webkit-text-stroke-width:.4px ;
+
+  
+}

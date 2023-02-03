@@ -1,9 +1,4 @@
 import './Nav.css'
-// import { Component } from 'react'
-
-// class Navbar extends component {
-
-//   render() {
 function Nav() {
   return (
     <nav className="NavbarItems">

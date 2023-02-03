@@ -24,11 +24,6 @@ img {
     font-size: small;
   }
 
-.genre{
-  font-size: larger;
-  font-weight: bold;
-  box-shadow: 0 3px 17px rgba(33, 30, 30, 0.86);
-}
 #Age{
   margin-bottom: 5px;
 }

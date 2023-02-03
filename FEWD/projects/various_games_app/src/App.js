@@ -2,12 +2,12 @@ import './App.css'
 import Games from './components/Games'
 import Genre from './components/Genre'
 import games from './games.json'
-import Navbar from './components/Nav'
+import Nav from './components/Nav'
 
 const App = (props) => {
   return (
     <div className="App">
-      <Navbar />
+      <Nav />
       {games.map((game, index) => (
         <div>
           <Genre genre={game.genre} title={game.title} />

@@ -15,7 +15,7 @@ img {
   border: solid black 2px ;
 }
 .whole {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -23,3 +23,12 @@ img {
   .card {
     font-size: small;
   }
+
+.genre{
+  font-size: larger;
+  font-weight: bold;
+  box-shadow: 0 3px 17px rgba(33, 30, 30, 0.86);
+}
+#Age{
+  margin-bottom: 5px;
+}

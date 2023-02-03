@@ -27,4 +27,14 @@ nav{
 #navbar li a:hover{
   color:green
 }
+#about {
+  align-items: center;
+  justify-content: center;
+  margin-left: 700px;
+}
+#About{
+  background-color: antiquewhite;
+  font-weight: bolder;
+  font-size: larger;
+}
 

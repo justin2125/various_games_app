@@ -34,7 +34,7 @@ function Nav() {
             <a href="index.html">Blog</a>
           </li>
           <li>
-            <a href="index.html">About</a>
+            <a href="http://127.0.0.1:5501/src/components/About.html">About</a>
           </li>
           <li>
             <a href="index.html">Contact</a>

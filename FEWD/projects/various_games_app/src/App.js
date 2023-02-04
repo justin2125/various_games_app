@@ -3,10 +3,13 @@ import Games from './components/Games'
 import Genre from './components/Genre'
 import games from './games.json'
 import Nav from './components/Nav'
-
+import Register from './components/Register'
+import Login from './components/Login'
 const App = (props) => {
   return (
     <div className="App">
+      <Register />
+      <Login />
       <Nav />
       {games.map((game, index) => (
         <div>

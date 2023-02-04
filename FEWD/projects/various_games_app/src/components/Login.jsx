@@ -8,14 +8,14 @@ const Login = (props) => {
   }
   return (
     <div className="Auth-form-container" id="last">
-      <form onSubmit={handleSubmit}>
+      <form className="login" onSubmit={handleSubmit}>
         <label htmlforfor='Email'>Email: </label>
         <input value={Email} onChange={(E) => setEmail(E.target.value)} type='Email' placeholder='blahblah@aol.com' id='Email' name='Email'/>
         <label htmlforfor='Password'>Password: </label>
         <input   value={Pass} onChange={(E) => setPass(E.target.value)} type='Password' placeholder='**********' id='Password' name='Password'/>
         <button type="submit">Log in</button>
       </form>
-      <button onClick={() => props.onFormSwitch('register')}>Dont have an account? register here.</button>
+      <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Dont have an account? register here.</button>
     </div>
   )
 }

@@ -8,12 +8,19 @@ import Register from './components/Register'
 import Login from './components/Login'
 const App = (props) => {
   const [currentForm, setCurrentForm] = useState('login')
+  const toggleForm = (forName) => {
+    setCurrentForm(forName)
+  }
   return (
     <div className="App">
-      {currentForm === 'login' ? <Login /> : <Register />}
+      {currentForm === 'login' ? (
+        <Login onFormSwitch={toggleForm} />
+      ) : (
+        <Register onFormSwitch={toggleForm} />
+      )}
+      <Nav />
       {games.map((game, index) => (
         <div>
-          <Nav />
           <Genre genre={game.genre} title={game.title} />
           <Games
             key={game.phone.personal}

@@ -1,18 +1,19 @@
 import './App.css'
 import Games from './components/Games'
 import Genre from './components/Genre'
+import React, { useState } from 'react'
 import games from './games.json'
 import Nav from './components/Nav'
 import Register from './components/Register'
 import Login from './components/Login'
 const App = (props) => {
+  const [currentForm, setCurrentForm] = useState('login')
   return (
     <div className="App">
-      <Register />
-      <Login />
-      <Nav />
+      {currentForm === 'login' ? <Login /> : <Register />}
       {games.map((game, index) => (
         <div>
+          <Nav />
           <Genre genre={game.genre} title={game.title} />
           <Games
             key={game.phone.personal}

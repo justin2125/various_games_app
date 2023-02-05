@@ -6,6 +6,7 @@ import games from './games.json'
 import Nav from './components/Nav'
 import Register from './components/Register'
 import Login from './components/Login'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 const App = (props) => {
   const [currentForm, setCurrentForm] = useState('login')
   const toggleForm = (forName) => {

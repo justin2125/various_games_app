@@ -1,27 +1,16 @@
 import './App.css'
+import Footer from './components/Footer.js'
 import Games from './components/Games'
 import Genre from './components/Genre'
-import React, { useState } from 'react'
 import games from './games.json'
 import Nav from './components/Nav'
-import Register from './components/Register'
-import Login from './components/Login'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
 const App = (props) => {
-  const [currentForm, setCurrentForm] = useState('login')
-  const toggleForm = (forName) => {
-    setCurrentForm(forName)
-  }
   return (
     <div className="App">
-      {currentForm === 'login' ? (
-        <Login onFormSwitch={toggleForm} />
-      ) : (
-        <Register onFormSwitch={toggleForm} />
-      )}
       <Nav />
       {games.map((game, index) => (
-        <div>
+        <div className="app">
           <Genre genre={game.genre} title={game.title} />
           <Games
             key={game.phone.personal}
@@ -38,9 +27,11 @@ const App = (props) => {
           />
         </div>
       ))}
+      <Footer />
     </div>
   )
 }
+
 // nav bar can be a component
 
 export default App
